@@ -1,18 +1,19 @@
 #projects {
     width: 100vw;
-    height: 150vh;
+    /* height: 150vh; */
     display: flex;
+    flex-direction: column;
     padding-top: 50px;
     padding-bottom: 100px;
     background: black
 }
 
-#projects-container-left {
-    flex: 1;
-    height: 100%
+#projects-header {
+    height: 100px;
+    margin-bottom: 50px
 }
 
-#projects-container-left :nth-child(1) {
+#projects-header :nth-child(1) {
     opacity: 0;
     color: white;
     font-size: 3rem;
@@ -24,13 +25,12 @@
 }
 
 #projects-container-right {
-    flex: 2;
     opacity: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     /* height: 100%; */
     overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     padding-left: 100px;
     padding-right: 100px;
     animation: fadeIn 0.5s linear forwards;

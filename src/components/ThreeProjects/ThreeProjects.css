@@ -1,0 +1,10 @@
+.three-projects-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: black
+}
+
+.three-project-tile-container {
+    height: 500px;
+    width: 500px
+}

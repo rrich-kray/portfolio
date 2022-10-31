@@ -7,7 +7,7 @@ const Projects = ({ setActivePost }) => {
   const [offset, setOffset] = useState(0);
   return (
     <div id="projects">
-      <div id="projects-container-left">
+      <div id="projects-header">
         <h1>Projects</h1>
       </div>
       <div id="projects-container-right">

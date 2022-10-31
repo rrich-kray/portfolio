@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects";
 import AboutRedux from "./components/AboutRedux/AboutRedux";
 import ThreeNav from "./components/ThreeNav/ThreeNav";
 import ProjectPage from "./components/ProjectPage/ProjectPage"
+import ThreeProjects from "./components/ThreeProjects/ThreeProjects";
 
 function App() {
   // Clicking on tile will set isPostActive to true, and also set activePost to the content of that post
@@ -13,21 +14,21 @@ function App() {
   const [isLoading, setLoading] = useState(true);
   const [activePage, changeActivePage] = useState("home");
 
-  // function renderPage() {
-  //   switch (activePage) {
-  //     case "home":
-  //       return <Hero changeActivePage={changeActivePage} />;
-  //       break;
-  //     case "projects":
-  //       return <Projects />;
-  //       break;
-  //     case "about":
-  //       return <AboutRedux />;
-  //     default:
-  //       return <Hero />;
-  //       break;
-  //   }
-  // }
+  function renderPage() {
+    switch (activePage) {
+      case "home":
+        return <Hero changeActivePage={changeActivePage} />;
+        break;
+      case "projects":
+        return <ThreeProjects />;
+        break;
+      case "about":
+        return <AboutRedux />;
+      default:
+        return <Hero />;
+        break;
+    }
+  }
 
   useEffect(() => {
     setTimeout(() => {
@@ -56,6 +57,7 @@ function App() {
               <Hero />
               <Projects setActivePost={setActivePost} />
               <AboutRedux />
+              {/* {renderPage()} */}
             </>
           )}
         </div>
