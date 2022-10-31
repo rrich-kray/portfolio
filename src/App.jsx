@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Projects from "./components/Projects/Projects";
 import AboutRedux from "./components/AboutRedux/AboutRedux";
 import ThreeNav from "./components/ThreeNav/ThreeNav";
+import ProjectPage from "./components/ProjectPage/ProjectPage"
 
 function App() {
   // Clicking on tile will set isPostActive to true, and also set activePost to the content of that post
@@ -53,7 +54,7 @@ function App() {
           ) : (
             <>
               <Hero />
-              <Projects />
+              <Projects setActivePost={setActivePost} />
               <AboutRedux />
             </>
           )}
