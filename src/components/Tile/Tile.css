@@ -1,0 +1,50 @@
+.tile {
+    overflow: hidden;
+    height: 500px;
+    max-width: 750px;
+    cursor: pointer
+}
+
+.tile-overlay {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(14, 14, 14, 0.75);
+    transition: 0.25s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-overlay :nth-child(1) {
+    color: white
+}
+
+.tile-overlay :nth-child(2) {
+    color: white;
+    font-size: 1.5rem;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.tile-overlay :nth-child(3) {
+    color: white;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.tile-overlay :nth-child(4) {
+    color: white;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.tile:hover > .tile-overlay {
+    opacity: 1
+}

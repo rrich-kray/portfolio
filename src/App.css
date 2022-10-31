@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* left: -100%; */
+  transform-origin: left;
+  background: white;
+  /* animation: slideInFromLeft 1.5s ease-in-out forwards */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0
+  }
+}

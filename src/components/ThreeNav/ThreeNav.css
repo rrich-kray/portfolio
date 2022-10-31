@@ -1,0 +1,48 @@
+.three-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(12px);
+    z-index: 999;
+    padding-bottom: 20px
+}
+
+.three-nav-links {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.three-nav-links a {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.25s linear;
+    cursor: pointer;
+    background: black
+}
+
+.three-nav-links a:hover {
+    background: white;
+    color: black
+}
+
+.three-nav-button {
+    height: 100%;
+    width: 75px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: white
+}
+
