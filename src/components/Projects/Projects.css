@@ -28,11 +28,12 @@
     opacity: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 10px;
     /* height: 100%; */
     overflow-x: hidden;
     /* overflow-y: scroll; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
     animation: fadeIn 0.5s linear forwards;
     animation-delay: 1s;
 }

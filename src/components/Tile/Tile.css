@@ -2,7 +2,8 @@
     overflow: hidden;
     height: 500px;
     max-width: 750px;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 5px
 }
 
 .tile-overlay {
