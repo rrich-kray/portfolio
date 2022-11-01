@@ -20,24 +20,27 @@ function Earth() {
   });
 
   return (
-    <mesh
-      castShadow
-      receiveShadow
-      ref={ref}
-      position={[0, -0.885, 4.3]}
-      rotation={[0, 15, 0]}
-    >
-      <ambientLight intensity={2} />
-      <sphereGeometry attach="geometry" args={[1, 128, 128]} />
-      <meshPhongMaterial
-        map={earthTexture}
-        bumpMap={earthBumpTexture}
-        bumpScale={0.025}
-        specularMap={earthSpecTexture}
-        specular="grey"
-        color="white"
-      />
-    </mesh>
+    <group>
+      {/* <Satellite position={[3, 1, 1]} scale={0.1}/> */}
+      <mesh
+        castShadow
+        receiveShadow
+        ref={ref}
+        position={[0, -0.885, 4.3]}
+        rotation={[0, 15, 0]}
+      >
+        <ambientLight intensity={2} />
+        <sphereGeometry attach="geometry" args={[1, 128, 128]} />
+        <meshPhongMaterial
+          map={earthTexture}
+          bumpMap={earthBumpTexture}
+          bumpScale={0.025}
+          specularMap={earthSpecTexture}
+          specular="grey"
+          color="white"
+        />
+      </mesh>
+    </group>
   );
 }
 
