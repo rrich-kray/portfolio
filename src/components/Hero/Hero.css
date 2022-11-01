@@ -55,6 +55,21 @@
     animation-delay: 2s; */
 }
 
+.overlay {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+    background: linear-gradient(
+        0deg,
+        rgb(0, 0, 0) 2%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.1) 60%,
+        rgba(0, 0, 0, 0.05) 100%
+      );
+}
+
 .hero-cta-container {
     height: 225px;
     padding: 30px;

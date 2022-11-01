@@ -51,6 +51,7 @@ const Hero = ({ changeActivePage }) => {
         </div>
       </div> */}
       <div id="hero-container-right">
+        <div className="overlay"></div>
         <div className="hero-cta-container">
           <div
             style={{
