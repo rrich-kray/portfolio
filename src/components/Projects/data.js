@@ -338,7 +338,7 @@ export default [
     id: 23,
     name: "Full Stack Kanban Board",
     ghRepository: "https://github.com/rrich-kray/kanban-board-client",
-    deploymentLink: "https://kanban-board-lyart.vercel.app/dashboard",
+    deploymentLink: "https://kanban-board-client-rrich.herokuapp.com/",
     summary: "Improved version of my original Kanban Board PWA app.",
     info: {
       description:
