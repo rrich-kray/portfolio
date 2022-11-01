@@ -8,15 +8,16 @@
     top: 0;
     backdrop-filter: blur(12px);
     z-index: 999;
-    padding-bottom: 20px
+    /* padding-bottom: 20px */
 }
 
 .three-nav-links {
     height: 100%;
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .three-nav-links a {
@@ -43,6 +44,13 @@
     cursor: pointer;
     border: none;
     font-weight: bold;
-    color: white
+    color: white;
+    transition: 0.25s linear;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.three-nav-button:hover {
+   background: black
 }
 
