@@ -1,0 +1,29 @@
+.three-about {
+    height: 100vh;
+    width: 100vw
+}
+
+.three-btn-link-container {
+    height: 100px;
+    display: flex;
+    padding: 10px
+}
+
+.three-btn-link-container a {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.25s linear;
+    text-decoration: none;
+    color: black
+}
+
+.three-btn-link-container a:hover {
+    background-color: white;
+    color: black;
+    /* border: 1px solid white */
+}
