@@ -7,6 +7,7 @@ import * as THREE from "three";
 import earth from "./images/map.jpg";
 import earthBump from "./images/earth_bump.jpg";
 import earthSpec from "./images/earthspec.jpg";
+import Satellite from "./Satellite"
 
 function Earth() {
   const ref = useRef();
