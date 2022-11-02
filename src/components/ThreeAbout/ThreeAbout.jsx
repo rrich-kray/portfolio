@@ -36,7 +36,7 @@ export default function ThreeAbout() {
                     enableRotate={false}
                 />
                 <ambientLight />
-                <spotLight angle={2} penumbra={2} position={[25, 10, 0]} castShadow />
+                <spotLight angle={2.75} penumbra={2} position={[25, 8, 0]} castShadow />
                 <Suspense fallback={null}>
                     <Physics>
                         <Plane rotation={[-(angleToRadians(90)), 0, 0]} />
