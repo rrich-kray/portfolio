@@ -5,7 +5,7 @@ function ThreeNav({ activePage, changeActivePage }) {
   return (
     <div className="three-nav">
       <div className="three-nav-links">
-        <button
+        {/* <button
           className="three-nav-button"
           onClick={() => changeActivePage("home")}
         >
@@ -22,10 +22,10 @@ function ThreeNav({ activePage, changeActivePage }) {
           onClick={() => changeActivePage("about")}
         >
           About
-        </button>
-        {/* <a href="#hero">Home</a>
+        </button> */}
+        <a href="#hero">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#about-redux">About</a> */}
+        <a href="#about-redux">About</a>
       </div>
     </div>
   );
