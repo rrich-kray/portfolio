@@ -64,7 +64,7 @@ const Hero = ({ changeActivePage }) => {
           >
             <h1>Let's Build Something Great</h1>
           </div>
-          <a href="#projects">Learn More</a>
+          <button onClick={() => changeActivePage("projects")}>Start</button>
         </div>
         <Canvas ref={canvasRef} dpr={[1, 2]}>
           <Suspense fallback={null}>

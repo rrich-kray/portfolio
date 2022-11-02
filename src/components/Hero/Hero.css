@@ -102,14 +102,24 @@
     color: black
 }
 
-.hero-cto-container button {
-    margin-top: 20px;
-    background: none;
-    /* border: none; */
-    font-weight: bold;
+.hero-cta-container button {
+    min-width: 100px;
     font-size: 1rem;
+    border: 2px solid black;
+    background: rgba(100, 100, 100, 0.5);
     padding: 10px;
-    color: white
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.25s linear;
+    cursor: pointer
+}
+
+.hero-cta-container button:hover {
+    background: white;
+    color: black
 }
 
 #hero-container-right h1 {
