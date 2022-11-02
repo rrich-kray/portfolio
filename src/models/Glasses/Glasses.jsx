@@ -6,6 +6,8 @@ source: https://sketchfab.com/3d-models/glasses-4dbf229576fd4a6194777c3d811cf9ad
 title: Glasses
 */
 
+// import sceneUrl from "./scene.gltf"
+
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 

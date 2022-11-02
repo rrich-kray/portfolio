@@ -5,10 +5,9 @@ import { RigidBody, Physics } from "@react-three/rapier"
 import "./ThreeAbout.css"
 import { angleToRadians } from "../../utils/angle"
 import { Box, Html, AccumulativeShadows, RandomizedLight } from "@react-three/drei"
-import { Mug } from "../../models/Mug"
-import { Laptop } from "../../models/Laptop"
-import { Glasses } from "../../models/Glasses"
-import { Laptop4 } from "../../models/Laptop4"
+import { Mug } from "../../models/Mug/Mug"
+import { Laptop } from "../../models/Laptop/Laptop"
+import { Glasses } from "../../models/Glasses/Glasses"
 
 function Plane(props) {
     return (

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Glasses
+* source:	https://sketchfab.com/3d-models/glasses-4dbf229576fd4a6194777c3d811cf9ad
+* author:	PounUP (https://sketchfab.com/PounUP)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Glasses" (https://sketchfab.com/3d-models/glasses-4dbf229576fd4a6194777c3d811cf9ad) by PounUP (https://sketchfab.com/PounUP) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
