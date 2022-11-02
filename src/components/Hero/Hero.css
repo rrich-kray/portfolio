@@ -73,9 +73,8 @@
 .hero-cta-container {
     height: 225px;
     padding: 30px;
-    background: rgba(100, 100, 100, 0.25);
     border-radius: 12px;
-    backdrop-filter: blur(12px);
+    /* backdrop-filter: blur(12px); */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -87,13 +86,13 @@
 
 .hero-cta-container a {
     border: 2px solid black;
+    background: rgba(100, 100, 100, 0.5);
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background: black;
     transition: 0.25s linear;
     cursor: pointer
 }

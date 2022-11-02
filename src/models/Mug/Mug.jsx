@@ -8,9 +8,10 @@ title: Classic Red Coffee Mug
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import sceneUrl from "./mug.glb"
 
 export function Mug(props) {
-  const { nodes, materials } = useGLTF('/models/mug/scene.gltf')
+  const { nodes, materials } = useGLTF(sceneUrl)
   return (
     <group {...props} dispose={null} castShadow>
       <group rotation={[-Math.PI / 2, 0, 0]} castShadow>
@@ -25,4 +26,4 @@ export function Mug(props) {
   )
 }
 
-useGLTF.preload('/models/mug/scene.gltf')
+// useGLTF.preload('/models/Mug/scene.gltf')

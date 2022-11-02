@@ -29,7 +29,7 @@
     font-weight: bold;
     transition: 0.25s linear;
     cursor: pointer;
-    background: black
+    background: rgba(100, 100, 100, 0.5); 
 }
 
 .three-nav-links a:hover {

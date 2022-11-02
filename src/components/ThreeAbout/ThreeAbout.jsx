@@ -42,7 +42,7 @@ export default function ThreeAbout() {
                         <Plane rotation={[-(angleToRadians(90)), 0, 0]} />
                         {/* <Box castShadow position={[0, 0, 0]} /> */}
                         <Mug scale={0.01} position={[6, 0, 3]} />
-                        <Laptop position={[10, 0, -5]} rotation={[0, 5.25, 0]} scale={1.25} />
+                        {/* <Laptop position={[10, 0, -5]} rotation={[0, 5.25, 0]} scale={1.25} /> */}
                         <Glasses scale={0.0075} position={[-10, 0.1, -2]} rotation={[0, 1, 0]} />
                     </Physics>
                 </Suspense>
