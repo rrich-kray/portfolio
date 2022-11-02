@@ -55,10 +55,10 @@ function App() {
             />
           ) : (
             <>
-              <Hero />
+              {/* <Hero />
               <Projects setActivePost={setActivePost} />
-              <AboutRedux />
-              {/* {renderPage()} */}
+              <AboutRedux /> */}
+              {renderPage()}
             </>
           )}
         </div>

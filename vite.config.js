@@ -6,4 +6,6 @@ import { glslify } from "vite-plugin-glslify";
 export default defineConfig({
   plugins: [react(), glslify()],
   assetsInclude: ["**/*.glb", "**/*.gltf"],
+  publicDir: "public",
+  root: "./",
 });

@@ -6,7 +6,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    backdrop-filter: blur(12px);
+    /* backdrop-filter: blur(12px); */
     z-index: 999;
     /* padding-bottom: 20px */
 }
