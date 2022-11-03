@@ -9,21 +9,24 @@ title: Classic Red Coffee Mug
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import sceneUrl from "./mug.glb"
+import { RigidBody } from '@react-three/rapier'
 
 export function Mug(props) {
   const { nodes, materials } = useGLTF(sceneUrl)
   return (
-    <group {...props} dispose={null} castShadow>
-      <group rotation={[-Math.PI / 2, 0, 0]} castShadow>
-        <group rotation={[Math.PI / 2, 0, 0]} castShadow>
-          <group position={[0, 0, 290.72]} rotation={[-Math.PI / 2, 0, -1.75]} scale={100} castShadow>
-            <mesh castShadow geometry={nodes.MeshMug_Red_0.geometry} material={materials.material} />
-            <mesh castShadow geometry={nodes.MeshMug_White_Mug_0.geometry} material={materials.White_Mug} />
+    <RigidBody colliders="hull">
+      <group {...props} dispose={null} castShadow>
+        <group rotation={[-Math.PI / 2, 0, 0]} castShadow>
+          <group rotation={[Math.PI / 2, 0, 0]} castShadow>
+            <group position={[0, 0, 290.72]} rotation={[-Math.PI / 2, 0, -1.75]} scale={100} castShadow>
+              <mesh castShadow geometry={nodes.MeshMug_Red_0.geometry} material={materials.material} />
+              <mesh castShadow geometry={nodes.MeshMug_White_Mug_0.geometry} material={materials.White_Mug} />
+            </group>
           </group>
         </group>
       </group>
-    </group>
-  )
+    </RigidBody>
+    )
 }
 
 // useGLTF.preload('/models/Mug/scene.gltf')

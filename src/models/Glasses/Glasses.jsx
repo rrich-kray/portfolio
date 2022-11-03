@@ -6,6 +6,8 @@ source: https://sketchfab.com/3d-models/glasses-4dbf229576fd4a6194777c3d811cf9ad
 title: Glasses
 */
 
+import { RigidBody } from '@react-three/rapier'
+
 // import sceneUrl from "./scene.gltf"
 
 import React, { useRef } from 'react'
@@ -15,16 +17,18 @@ import sceneUrl from './glasses.glb'
 export function Glasses(props) {
   const { nodes, materials } = useGLTF(sceneUrl)
   return (
-    <group {...props} dispose={null} castShadow>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
-        <group rotation={[Math.PI / 2, 0, 0]}>
-          <group rotation={[-0.04, 0, Math.PI]} scale={100}>
-            <mesh geometry={nodes.Glasses_LP_All_0.geometry} material={materials.material} castShadow/>
-            <mesh geometry={nodes.Glasses_LP_Material002_0.geometry} material={materials['Material.002']} castShadow/>
+    <RigidBody colliders="hull">
+      <group {...props} dispose={null} castShadow>
+        <group rotation={[-Math.PI / 2, 0, 0]}>
+          <group rotation={[Math.PI / 2, 0, 0]}>
+            <group rotation={[-0.04, 0, Math.PI]} scale={100}>
+              <mesh geometry={nodes.Glasses_LP_All_0.geometry} material={materials.material} castShadow/>
+              <mesh geometry={nodes.Glasses_LP_Material002_0.geometry} material={materials['Material.002']} castShadow/>
+            </group>
           </group>
         </group>
       </group>
-    </group>
+    </RigidBody>
   )
 }
 
