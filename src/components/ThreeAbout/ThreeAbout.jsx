@@ -5,6 +5,7 @@ import { RigidBody, Physics } from "@react-three/rapier"
 import "./ThreeAbout.css"
 import { angleToRadians } from "../../utils/angle"
 import { Box, Html, AccumulativeShadows, RandomizedLight } from "@react-three/drei"
+import { EffectComposer, DepthOfField } from '@react-three/postprocessing'
 import { Mug } from "../../models/Mug/Mug"
 import { Laptop } from "../../models/Laptop/Laptop"
 import { Glasses } from "../../models/Glasses/Glasses"
@@ -43,9 +44,7 @@ export default function ThreeAbout() {
                 <Suspense fallback={null}>
                     <Physics>
                         <Plane rotation={[-(angleToRadians(90)), 0, 0]} />
-                        {/* <Box castShadow position={[0, 0, 0]} /> */}
                         <Mug scale={0.01} position={[6, 15, 3]} />
-                        {/* <Laptop position={[10, 0, -5]} rotation={[0, 5.25, 0]} scale={1.25} /> */}
                         <Glasses scale={0.0075} position={[-10, 15, -2]} rotation={[0, 1, 0]} />
                         <Die position={[7, 15, -7]}/>
                         <Die position={[6.5, 26, -7]}/>
