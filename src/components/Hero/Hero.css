@@ -122,7 +122,7 @@
     color: black
 }
 
-#hero-container-right h1 {
+#hero-container-right h1, h2 {
     background: linear-gradient(30deg, #c850c0, #ffcc70);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -132,6 +132,12 @@
     font-weight: 1000;
     letter-spacing: -0.025em;
     text-align: center
+}
+
+#hero-container-right h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px
 }
 
 @keyframes fadeIn {
@@ -167,4 +173,16 @@
 .threejs-canvas {
     height: 100%;
     width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    #hero-container-right h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero-container-right h1 {
+        font-size: 2rem;
+    }
 }

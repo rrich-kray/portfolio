@@ -63,6 +63,7 @@ const Hero = ({ changeActivePage }) => {
             }}
           >
             <h1>Let's Build Something Great</h1>
+            <h2>Scroll down to learn more</h2>
           </div>
           {/* <button onClick={() => changeActivePage("projects")}>Start</button> */}
         </div>
