@@ -8,7 +8,7 @@ const Tile = ({ projectData, setActivePost }) => {
       className="tile"
       style={{
         backgroundImage: `url('${projectData.backgroundImage}')`,
-        backgroundSize: "cover",
+        backgroundSize: "fill",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}

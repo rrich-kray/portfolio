@@ -4,7 +4,8 @@
     max-width: 750px;
     cursor: pointer;
     border-radius: 5px;
-    max-width: 100%
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .tile-overlay {
@@ -49,4 +50,21 @@
 
 .tile:hover > .tile-overlay {
     opacity: 1
+}
+
+@media screen and (max-width: 980px) {
+    .tile-overlay {
+        opacity: 1;
+        background: rgba(14, 14, 14, 0.5);
+        padding: 10px
+    }
+
+    .tile-overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .tile-overlay :nth-child(2) {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
 }
