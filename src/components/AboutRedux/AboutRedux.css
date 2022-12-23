@@ -72,6 +72,12 @@
         text-align: center;
     }
 
+    .bio-container h1,
+    .skills-container h1,
+    .contact-container h1 {
+        border-bottom: 1px solid white;
+    }
+
     .skills-container {
         justify-content: center;
     }

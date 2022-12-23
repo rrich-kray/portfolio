@@ -187,4 +187,9 @@
         border-left: none;
         border-top: 1px solid white;
     }
+
+    /* .vid-container {
+        min-height: 0;
+        height: 250px
+    } */
 }
