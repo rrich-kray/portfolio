@@ -21,37 +21,37 @@ import team_profile_gen from "./images/team_profile_gen.png";
 import weather_dash from "./images/weather_dash.png";
 
 export default [
-  {
-    id: 1,
-    name: "Employee Tracker",
-    ghRepository: "https://github.com/rrich-kray/employee-tracker",
-    deploymentLink: "",
-    summary: "Node.js application that stores employee data.",
-    info: {
-      description:
-        "Employee Tracker provides users a means to store, view, update and delete employee, department and role data. While challenging, this was a great opportunity to work with a relational database and its API without the need for any front-end integration. That said, I do intend to integrate this application into a React-built front-end and deploy it in the near future.",
-      technologies: ["Node", "Express", "SQL", "MySQL", "JavaScript"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: employee_tracker,
-  },
-  {
-    id: 2,
-    name: "Team Profile Generator",
-    ghRepository: "https://github.com/rrich-kray/team-profile-generator",
-    deploymentLink: "",
-    summary:
-      "Node.js application that programmatically generates HTML containing a team profile",
-    info: {
-      description:
-        "Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a simple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs). Presently, I consider this an MVP build, and plan to introduce additional features and improvements in the future including better code modularization and more detailed employee profiles. I will likely also make improvements to the application's fairly minimalist UI.",
-      technologies: ["Node", "HTML", "CSS", "JavaScript"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: team_profile_gen,
-  },
+  // {
+  //   id: 1,
+  //   name: "Employee Tracker",
+  //   ghRepository: "https://github.com/rrich-kray/employee-tracker",
+  //   deploymentLink: "",
+  //   summary: "Node.js application that stores employee data.",
+  //   info: {
+  //     description:
+  //       "Employee Tracker provides users a means to store, view, update and delete employee, department and role data. While challenging, this was a great opportunity to work with a relational database and its API without the need for any front-end integration. That said, I do intend to integrate this application into a React-built front-end and deploy it in the near future.",
+  //     technologies: ["Node", "Express", "SQL", "MySQL", "JavaScript"],
+  //     gallery: [],
+  //   },
+  //   video: "",
+  //   backgroundImage: employee_tracker,
+  // },
+  // {
+  //   id: 2,
+  //   name: "Team Profile Generator",
+  //   ghRepository: "https://github.com/rrich-kray/team-profile-generator",
+  //   deploymentLink: "",
+  //   summary:
+  //     "Node.js application that programmatically generates HTML containing a team profile",
+  //   info: {
+  //     description:
+  //       "Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a simple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs). Presently, I consider this an MVP build, and plan to introduce additional features and improvements in the future including better code modularization and more detailed employee profiles. I will likely also make improvements to the application's fairly minimalist UI.",
+  //     technologies: ["Node", "HTML", "CSS", "JavaScript"],
+  //     gallery: [],
+  //   },
+  //   video: "",
+  //   backgroundImage: team_profile_gen,
+  // },
   {
     id: 3,
     name: "Weather Dashboard",
@@ -71,22 +71,22 @@ export default [
       "https://drive.google.com/file/d/13U4nIFZXdIHBzKV-3xD_gXuo5GVhZNj9/preview",
     backgroundImage: weather_dash,
   },
-  {
-    id: 4,
-    name: "Professional README Generator",
-    ghRepository: "https://github.com/rrich-kray/professional-readme-generator",
-    deploymentLink: "",
-    summary:
-      "Programmatically generates professional README files using Node.js.",
-    info: {
-      description:
-        "This project uses the inquirer node package to generate a professional README file for your project! Simply answer the prompts provided, and the apploication will output a fully-formatted, professional README file for you.",
-      technologies: ["Node", "JavaScript"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: readme_gen,
-  },
+  // {
+  //   id: 4,
+  //   name: "Professional README Generator",
+  //   ghRepository: "https://github.com/rrich-kray/professional-readme-generator",
+  //   deploymentLink: "",
+  //   summary:
+  //     "Programmatically generates professional README files using Node.js.",
+  //   info: {
+  //     description:
+  //       "This project uses the inquirer node package to generate a professional README file for your project! Simply answer the prompts provided, and the apploication will output a fully-formatted, professional README file for you.",
+  //     technologies: ["Node", "JavaScript"],
+  //     gallery: [],
+  //   },
+  //   video: "",
+  //   backgroundImage: readme_gen,
+  // },
   // {
   //   id: 5,
   //   name: "Taskinator",
@@ -147,20 +147,20 @@ export default [
   //   backgroundImage:
   //     "https://raw.githubusercontent.com/rrich-kray/Taskmaster-Pro/main/assets/images/screen2.png",
   // },
-  {
-    id: 10,
-    name: "Ecommerce Backend",
-    ghRepository: "https://github.com/rrich-kray/ecommerce-product-database",
-    deploymentLink: "",
-    summary: "Database for a mock ecommerce website.",
-    info: {
-      description: "",
-      technologies: ["Node", "JavaScript", "Express"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: ecommerce_backend,
-  },
+  // {
+  //   id: 10,
+  //   name: "Ecommerce Backend",
+  //   ghRepository: "https://github.com/rrich-kray/ecommerce-product-database",
+  //   deploymentLink: "",
+  //   summary: "Database for a mock ecommerce website.",
+  //   info: {
+  //     description: "",
+  //     technologies: ["Node", "JavaScript", "Express"],
+  //     gallery: [],
+  //   },
+  //   video: "",
+  //   backgroundImage: ecommerce_backend,
+  // },
   // {
   //   id: 11,
   //   name: "Coders Cave",
