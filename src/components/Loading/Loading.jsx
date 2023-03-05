@@ -15,14 +15,14 @@ function GlowingCube(props) {
     const cube = useRef()
     useFrame((state, delta) => {
         cube.current.rotation.y += delta
-        cube.current.rotation.x += delta
+        // cube.current.rotation.x += delta
     })
 
     return (
         // <Float speed={1} rotationIntensity={1}>
             <mesh castshadow position={[0, 5, 0]} {...props} ref={cube}>
                 <boxGeometry />
-                <meshStandardMaterial emissive="blue" emissiveIntensity={5} toneMapped={false} />
+                <meshStandardMaterial emissive="blue" emissiveIntensity={10} toneMapped={false} />
             </mesh>
         // </Float>
     )
@@ -47,15 +47,15 @@ export default function Loading() {
         <div className="loading">
             <Canvas shadows>
                 <PerspectiveCamera makeDefault position={[0, 15, 0]} />
-                <Plane rotation={[-(angleToRadians(130)), 0, 7]} />
+                <Plane rotation={[-(angleToRadians(130)), 0, 6.5]} />
                 <OrbitControls autoRotate={false} enableZoom={true} enableRotate={true} />
-                <ambientLight color="#F8C069"/>
+                <ambientLight color="#F8C069" />
                 <spotLight angle={2.75} penumbra={2} position={[25, 8, 0]} castShadow />
-                <GlowingCube position={[5, 5, 0]} />
-                <GlowingCube position={[2.5, 10, 2.5]} />
-                <GlowingCube position={[-5, 10, 2.5]} />
+                {/* <GlowingCube position={[5, 5, -2.5]} rotation={[-(angleToRadians(130)), 0, 7]} />
+                <GlowingCube position={[2.5, 5, 0]} rotation={[-(angleToRadians(130)), 0, 7]} />
+                <GlowingCube position={[-2.5, 10, 0]} rotation={[-(angleToRadians(130)), 0, 7]} /> */}
                 <EffectComposer multisampling={8}>
-                    <Bloom kernelSize={3} luminanceThreshold={1} />
+                    <Bloom kernelSize={3} luminanceThreshold={3} />
                 </EffectComposer>
             </Canvas>
         </div>
