@@ -1,13 +1,13 @@
 import React, { useRef, useState, Suspense, useEffect } from "react";
-import "./Hero.css";
 import { Canvas, extend, useFrame } from "@react-three/fiber";
 import { OrbitControls, softShadows, Stars } from "@react-three/drei";
-import { UnrealBloomPass } from "three-stdlib";
+import Loading from "../Loading/Loading";
 import * as THREE from "three";
 import earth from "./images/map.jpg";
 import earthBump from "./images/earth_bump.jpg";
 import earthSpec from "./images/earthspec.jpg";
 import Satellite from "./Satellite"
+import "./Hero.css";
 
 function Earth() {
   const ref = useRef();
@@ -67,7 +67,7 @@ const Hero = ({ changeActivePage }) => {
           </div>
           {/* <button onClick={() => changeActivePage("projects")}>Start</button> */}
         </div>
-        <Canvas ref={canvasRef} dpr={[1, 2]}>
+        <Canvas ref={canvasRef} dpr={[1, 2]} fallback={<Loading />}>
           <Suspense fallback={null}>
             <Stars
               radius={100}
