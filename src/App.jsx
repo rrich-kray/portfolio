@@ -21,15 +21,12 @@ function App() {
       case "home":
         // return <Hero changeActivePage={changeActivePage} />;
         return <Loading />
-        break;
       case "projects":
         return <Projects setActivePost={setActivePost}/>;
-        break;
       case "about":
         return <ThreeAbout />;
       default:
         return <Hero />;
-        break;
     }
   }
 
