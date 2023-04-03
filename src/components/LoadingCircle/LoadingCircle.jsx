@@ -1,17 +1,18 @@
 import styles from "./styles.module.scss"
-import { React, useEffect } from 'react'
+import { React, useEffect, useRef } from 'react'
 import { Html } from "@react-three/drei"
 
 const LoadingCircle = ({isLoading, setLoading}) => {
+    const loadingRef = useRef()
 
-    useEffect(() => {
-        setTimeout(() => {
-          setLoading(false);
-        }, 5000);
-      });
+    setTimeout(() => {
+        setLoading(false);
+    }, 5000);
 
+    console.log(isLoading)
+    
     return ( 
-        <div className={styles.loadingScreen} style={{zIndex: isLoading ? 999 : -999}}>
+        <div className={styles.loadingScreen} ref={loadingRef} style={{zIndex: isLoading ? 999 : -999 }}>
             <div className={styles.contentContainer}>
                 <div className={styles.square}>
                     <div className={styles.particle} style={{top: 0, right: 0}}></div>  

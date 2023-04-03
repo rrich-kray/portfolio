@@ -20,7 +20,12 @@ function App() {
   function renderPage() {
     switch (activePage) {
       case "home":
-        return <Hero changeActivePage={changeActivePage} isLoading={isLoading} setLoading={setLoading} />;
+        return (
+          <>
+            <LoadingCircle isLoading={isLoading} setLoading={setLoading} />
+            <Hero changeActivePage={changeActivePage} isLoading={isLoading} setLoading={setLoading} />
+          </>
+        );
         // return <Loading />
       case "projects":
         return <Projects setActivePost={setActivePost}/>;
@@ -58,7 +63,6 @@ function App() {
               {/* <Hero />
               <Projects setActivePost={setActivePost} />
               <AboutRedux /> */}
-              <LoadingCircle isLoading={isLoading} setLoading={setLoading} />
               {renderPage()}
             </>
           )}

@@ -59,7 +59,7 @@ const Hero = ({ changeActivePage, isLoading, setLoading }) => {
         <div className="hero-cta-container">
           <div
             style={{
-              zIndex: 999,
+              zIndex: 99,
             }}
           >
             <h1>Let's Build Something Great</h1>
