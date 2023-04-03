@@ -8,6 +8,7 @@ import ProjectPage from "./components/ProjectPage/ProjectPage"
 import ThreeProjects from "./components/ThreeProjects/ThreeProjects";
 import ThreeAbout from "./components/ThreeAbout/ThreeAbout";
 import Loading from "./components/Loading/Loading";
+import LoadingCircle from "./components/LoadingCircle/LoadingCircle";
 
 function App() {
   // Clicking on tile will set isPostActive to true, and also set activePost to the content of that post
@@ -19,8 +20,8 @@ function App() {
   function renderPage() {
     switch (activePage) {
       case "home":
-        // return <Hero changeActivePage={changeActivePage} />;
-        return <Loading />
+        return <Hero changeActivePage={changeActivePage} />;
+        // return <Loading />
       case "projects":
         return <Projects setActivePost={setActivePost}/>;
       case "about":
@@ -30,17 +31,17 @@ function App() {
     }
   }
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 5000);
-  });
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 5000);
+  // });
 
   return (
     <>
-      {/* {isLoading ? (
-        <Splash />
-      ) : ( */}
+      {isLoading ? (
+        <LoadingCircle />
+      ) : (
       <div className="wrapper">
         <div id="app">
           <ThreeNav
@@ -62,7 +63,7 @@ function App() {
           )}
         </div>
       </div>
-      {/* )} */}
+      )}
     </>
   );
 }
