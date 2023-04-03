@@ -20,17 +20,16 @@
     width: 60px;
     position: relative;
     background-color: black;
-    animation: spin 1s infinite linear;
+    animation: spin 2s infinite linear;
 }
 
 .particle {
     height: 15px;
     width: 15px;
     position: absolute;
-    top: 0;
-    right: 0;
     border-radius: 50%;
     background-color: white;
+    box-shadow: 0 0 20px #fff;
     // animation: fade-in-out 1s infinite linear;
 }
 
