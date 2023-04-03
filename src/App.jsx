@@ -20,7 +20,7 @@ function App() {
   function renderPage() {
     switch (activePage) {
       case "home":
-        return <Hero changeActivePage={changeActivePage} />;
+        return <Hero changeActivePage={changeActivePage} isLoading={isLoading} setLoading={setLoading} />;
         // return <Loading />
       case "projects":
         return <Projects setActivePost={setActivePost}/>;
@@ -39,9 +39,9 @@ function App() {
 
   return (
     <>
-      {isLoading ? (
+      {/* {isLoading ? (
         <LoadingCircle />
-      ) : (
+      ) : ( */}
       <div className="wrapper">
         <div id="app">
           <ThreeNav
@@ -63,7 +63,7 @@ function App() {
           )}
         </div>
       </div>
-      )}
+      {/* )} */}
     </>
   );
 }
