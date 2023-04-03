@@ -58,6 +58,7 @@ function App() {
               {/* <Hero />
               <Projects setActivePost={setActivePost} />
               <AboutRedux /> */}
+              <LoadingCircle isLoading={isLoading} setLoading={setLoading} />
               {renderPage()}
             </>
           )}

@@ -6,8 +6,7 @@ import * as THREE from "three";
 import earth from "./images/map.jpg";
 import earthBump from "./images/earth_bump.jpg";
 import earthSpec from "./images/earthspec.jpg";
-import Satellite from "./Satellite"
-import LoadingCircle from "../LoadingCircle/LoadingCircle";
+import Satellite from "./Satellite";
 import "./Hero.css";
 
 function Earth() {
@@ -69,7 +68,7 @@ const Hero = ({ changeActivePage, isLoading, setLoading }) => {
           {/* <button onClick={() => changeActivePage("projects")}>Start</button> */}
         </div>
         <Canvas ref={canvasRef} dpr={[1, 2]} fallback={<Loading />}>
-          <Suspense fallback={<LoadingCircle />}>
+          <Suspense fallback={null}>
             <Stars
               radius={100}
               depth={50}
