@@ -39,13 +39,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px
+    margin-top: 40px
 }
 
 .loadingText :nth-child(1) {
     font-size: 30px;
     color: white;
-    animation: fade-in-out 1s infinite linear
+    animation: fade-in-out 1s infinite linear;
 }
 
 @keyframes spin {
