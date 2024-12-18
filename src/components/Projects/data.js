@@ -20,6 +20,7 @@ import readme_gen from "./images/readme_gen.png";
 import team_profile_gen from "./images/team_profile_gen.png";
 import weather_dash from "./images/weather_dash.png";
 import asteroids from "./images/asteroids.png"
+import vortex from "./images/vortex.png"
 
 export default [
   // {
@@ -445,7 +446,7 @@ export default [
   },
   {
     id: 28,
-    name: "Asteroids",
+    name: "THREE Asteroids",
     ghRepository: "https://github.com/rrich-kray/THREE-Asteroids",
     deploymentLink: "https://three-asteroids-i46zrgni5-rrichkrays-projects.vercel.app/",
     summary:
@@ -459,4 +460,21 @@ export default [
     video: "",
     backgroundImage: asteroids,
   },
+  {
+    id: 29,
+    name: "THREE Vortex",
+    ghRepository: "https://github.com/rrich-kray/THREE-Vortex",
+    deploymentLink: "https://three-vortex-pezpdjb9v-rrichkrays-projects.vercel.app/",
+    summary:
+      "Simple vortex scene, built with THREE.js.",
+    info: {
+      description:
+        "A simple vortex scene that I built to become more acquinted with THREE.js. Built using TypeScript, THREE.js and Vite",
+      technologies: ["HTML", "CSS", "JavaScript", "TypeScript", "THREE"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: vortex,
+  },
+  
 ];
