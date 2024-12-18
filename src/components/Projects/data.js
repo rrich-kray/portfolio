@@ -19,8 +19,9 @@ import react_landing_page from "./images/react_landing_page.png";
 import readme_gen from "./images/readme_gen.png";
 import team_profile_gen from "./images/team_profile_gen.png";
 import weather_dash from "./images/weather_dash.png";
-import asteroids from "./images/asteroids.png"
-import vortex from "./images/vortex.png"
+import asteroids from "./images/asteroids.png";
+import vortex from "./images/vortex.png";
+import lastpass from "./images/lastpass.png"
 
 export default [
   // {
@@ -475,6 +476,22 @@ export default [
     },
     video: "",
     backgroundImage: vortex,
+  },
+  {
+    id: 30,
+    name: "Lastpass Clone",
+    ghRepository: "https://github.com/rrich-kray/LastPass_Clone",
+    deploymentLink: "https://passwordmanager1.azurewebsites.net/",
+    summary:
+      "An attempt at a clone of the password manager app LastPass.",
+    info: {
+      description:
+        "An attempt at a clone of the password manager app LastPass. Frontend was built with React and TypeScript, backend with ASP.NET and C#. Both the frontend and backend were packaged into a Docker container and deployed to Azure Container Registry.",
+      technologies: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "CSharp", "dotnet", "aspdotnet", "Azure"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: lastpass,
   },
   
 ];
