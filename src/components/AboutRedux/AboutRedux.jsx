@@ -63,10 +63,16 @@ const AboutRedux = () => {
             organize large proprietary datasets that often served as the bedrock
             for differentiated, revenue-generating research. More importantly,
             it helped me realize my passion for software development and
-            motivated my departure from the industry nearly a year ago. Since
-            then, I have built dozens of projects leveraging technologies across
-            the entire MERN stack, and I am driven forward by the prospect of
-            developing unique solutions to unique problems.
+            motivated my departure from the industry nearly a year ago. 
+            
+            Since then, I have worked in data conversions, where I was 
+            responsible for developing C# applications that facilitated 
+            the conversion of massive client datasets between systems.
+            My contributions included creating reusable components for an 
+            in-house data conversion framework and writing complex SQL queries 
+            to validate conversion output. In my free time, I have built dozens 
+            of projects leveraging many different technologies, and I am 
+            driven forward by the prospect of developing unique solutions to unique problems.
           </p>
         </div>
         <div
