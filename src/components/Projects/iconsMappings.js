@@ -21,6 +21,8 @@ const iconMappings = {
   Python: "https://www.svgrepo.com/show/19538/py.svg",
   AWS: "https://www.svgrepo.com/show/376356/aws.svg",
   FastAPI: "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
+  TypeScript: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+  THREE: "https://global.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"
 };
 
 export default iconMappings;

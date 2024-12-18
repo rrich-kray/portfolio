@@ -19,6 +19,7 @@ import react_landing_page from "./images/react_landing_page.png";
 import readme_gen from "./images/readme_gen.png";
 import team_profile_gen from "./images/team_profile_gen.png";
 import weather_dash from "./images/weather_dash.png";
+import asteroids from "./images/asteroids.png"
 
 export default [
   // {
@@ -441,5 +442,21 @@ export default [
     },
     video: "",
     backgroundImage: photoGallery,
+  },
+  {
+    id: 28,
+    name: "Asteroids",
+    ghRepository: "https://github.com/rrich-kray/THREE-Asteroids",
+    deploymentLink: "https://three-asteroids-i46zrgni5-rrichkrays-projects.vercel.app/",
+    summary:
+      "Asteroids game, built with THREE.js.",
+    info: {
+      description:
+        "A simple game in which the user must use the arrow keys to avoid asteroids for as long as possible. Built using TypeScript, THREE.js and Vite",
+      technologies: ["HTML", "CSS", "JavaScript", "TypeScript", "THREE"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: asteroids,
   },
 ];
