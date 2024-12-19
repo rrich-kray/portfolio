@@ -305,6 +305,7 @@ export default [
     video: "",
     backgroundImage: chart_fs,
   },
+  /*
   {
     id: 21,
     name: "Interactive Comments Section",
@@ -322,6 +323,7 @@ export default [
     video: "",
     backgroundImage: comments_section,
   },
+  */
   {
     id: 22,
     name: "Coding Quiz Pro",
