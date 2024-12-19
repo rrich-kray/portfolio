@@ -21,40 +21,41 @@ import team_profile_gen from "./images/team_profile_gen.png";
 import weather_dash from "./images/weather_dash.png";
 import asteroids from "./images/asteroids.png";
 import vortex from "./images/vortex.png";
-import lastpass from "./images/lastpass.png"
+import lastpass from "./images/lastpass.png";
+import pong from "./images/pong.png";
 
 export default [
-  // {
-  //   id: 1,
-  //   name: "Employee Tracker",
-  //   ghRepository: "https://github.com/rrich-kray/employee-tracker",
-  //   deploymentLink: "",
-  //   summary: "Node.js application that stores employee data.",
-  //   info: {
-  //     description:
-  //       "Employee Tracker provides users a means to store, view, update and delete employee, department and role data. While challenging, this was a great opportunity to work with a relational database and its API without the need for any front-end integration. That said, I do intend to integrate this application into a React-built front-end and deploy it in the near future.",
-  //     technologies: ["Node", "Express", "SQL", "MySQL", "JavaScript"],
-  //     gallery: [],
-  //   },
-  //   video: "",
-  //   backgroundImage: employee_tracker,
-  // },
-  // {
-  //   id: 2,
-  //   name: "Team Profile Generator",
-  //   ghRepository: "https://github.com/rrich-kray/team-profile-generator",
-  //   deploymentLink: "",
-  //   summary:
-  //     "Node.js application that programmatically generates HTML containing a team profile",
-  //   info: {
-  //     description:
-  //       "Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a simple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs). Presently, I consider this an MVP build, and plan to introduce additional features and improvements in the future including better code modularization and more detailed employee profiles. I will likely also make improvements to the application's fairly minimalist UI.",
-  //     technologies: ["Node", "HTML", "CSS", "JavaScript"],
-  //     gallery: [],
-  //   },
-  //   video: "",
-  //   backgroundImage: team_profile_gen,
-  // },
+  {
+    id: 1,
+    name: "Employee Tracker",
+    ghRepository: "https://github.com/rrich-kray/employee-tracker",
+    deploymentLink: "",
+    summary: "Node.js application that stores employee data.",
+    info: {
+      description:
+        "Employee Tracker provides users a means to store, view, update and delete employee, department and role data. While challenging, this was a great opportunity to work with a relational database and its API without the need for any front-end integration. That said, I do intend to integrate this application into a React-built front-end and deploy it in the near future.",
+      technologies: ["Node", "Express", "SQL", "MySQL", "JavaScript"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: employee_tracker,
+  },
+  {
+    id: 2,
+    name: "Team Profile Generator",
+    ghRepository: "https://github.com/rrich-kray/team-profile-generator",
+    deploymentLink: "",
+    summary:
+      "Node.js application that programmatically generates HTML containing a team profile",
+    info: {
+      description:
+        "Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a simple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs). Presently, I consider this an MVP build, and plan to introduce additional features and improvements in the future including better code modularization and more detailed employee profiles. I will likely also make improvements to the application's fairly minimalist UI.",
+      technologies: ["Node", "HTML", "CSS", "JavaScript"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: team_profile_gen,
+  },
   {
     id: 3,
     name: "Weather Dashboard",
@@ -150,20 +151,20 @@ export default [
   //   backgroundImage:
   //     "https://raw.githubusercontent.com/rrich-kray/Taskmaster-Pro/main/assets/images/screen2.png",
   // },
-  // {
-  //   id: 10,
-  //   name: "Ecommerce Backend",
-  //   ghRepository: "https://github.com/rrich-kray/ecommerce-product-database",
-  //   deploymentLink: "",
-  //   summary: "Database for a mock ecommerce website.",
-  //   info: {
-  //     description: "",
-  //     technologies: ["Node", "JavaScript", "Express"],
-  //     gallery: [],
-  //   },
-  //   video: "",
-  //   backgroundImage: ecommerce_backend,
-  // },
+  {
+    id: 10,
+    name: "Ecommerce Backend",
+    ghRepository: "https://github.com/rrich-kray/ecommerce-product-database",
+    deploymentLink: "",
+    summary: "Database for a mock ecommerce website.",
+    info: {
+      description: "",
+      technologies: ["Node", "JavaScript", "Express"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: ecommerce_backend,
+  },
   // {
   //   id: 11,
   //   name: "Coders Cave",
@@ -217,22 +218,22 @@ export default [
     video: "",
     backgroundImage: chart,
   },
-  {
-    id: 15,
-    name: "Dropdown Challenge",
-    ghRepository: "https://github.com/rrich-kray/dropdown-landing",
-    deploymentLink: "https://dropdown-challenge-rrich-kray.herokuapp.com/",
-    summary: "Simple landing page with dropdown navigation menus",
-    info: {
-      description:
-        "Another quick challenge from Frontend Mentor, intended to improve my skills with CSS and more specifically the implementation of dropdown menus. Built with React.",
-      technologies: ["React", "HTML", "CSS", "JavaScript"],
-      gallery: [],
-    },
-    video:
-      "https://drive.google.com/file/d/1FOYw_D_26gpm7vDVXSEzOB6aIYWpnNHY/preview",
-    backgroundImage: dropdown,
-  },
+  // {
+  //   id: 15,
+  //   name: "Dropdown Challenge",
+  //   ghRepository: "https://github.com/rrich-kray/dropdown-landing",
+  //   deploymentLink: "https://dropdown-challenge-rrich-kray.herokuapp.com/",
+  //   summary: "Simple landing page with dropdown navigation menus",
+  //   info: {
+  //     description:
+  //       "Another quick challenge from Frontend Mentor, intended to improve my skills with CSS and more specifically the implementation of dropdown menus. Built with React.",
+  //     technologies: ["React", "HTML", "CSS", "JavaScript"],
+  //     gallery: [],
+  //   },
+  //   video:
+  //     "https://drive.google.com/file/d/1FOYw_D_26gpm7vDVXSEzOB6aIYWpnNHY/preview",
+  //   backgroundImage: dropdown,
+  // },
   {
     id: 16,
     name: "GitHub User Search",
@@ -265,21 +266,21 @@ export default [
       "https://drive.google.com/file/d/1uwmI0Kg_Q2ui-_egAREaEAxp_FUCxMVM/preview",
     backgroundImage: react_landing_page,
   },
-  {
-    id: 19,
-    name: "Kanban Board PWA",
-    ghRepository: "https://github.com/rrich-kray/kanban-pwa",
-    deploymentLink: "https://kanban-board-rrich-kray.herokuapp.com/",
-    summary: "Kanban board PWA built with React",
-    info: {
-      description:
-        "A kanboard app undertaken as a quick exercise in React state management. As such, the app only consists of a frontend. Tasks are stored using local storage.",
-      technologies: ["React", "HTML", "CSS", "JavaScript"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: kanban_pwa,
-  },
+  // {
+  //   id: 19,
+  //   name: "Kanban Board PWA",
+  //   ghRepository: "https://github.com/rrich-kray/kanban-pwa",
+  //   deploymentLink: "https://kanban-board-rrich-kray.herokuapp.com/",
+  //   summary: "Kanban board PWA built with React",
+  //   info: {
+  //     description:
+  //       "A kanboard app undertaken as a quick exercise in React state management. As such, the app only consists of a frontend. Tasks are stored using local storage.",
+  //     technologies: ["React", "HTML", "CSS", "JavaScript"],
+  //     gallery: [],
+  //   },
+  //   video: "",
+  //   backgroundImage: kanban_pwa,
+  // },
   {
     id: 20,
     name: "Full-Stack Expenses Chart",
@@ -480,12 +481,28 @@ export default [
     backgroundImage: vortex,
   },
   {
+    id: 31,
+    name: "Pong",
+    ghRepository: "https://github.com/rrich-kray/pong",
+    deploymentLink: "",
+    summary:
+      "Pong game built with Python and Pygame.",
+    info: {
+      description:
+        " Pong with Pygame project utilizes the Pygame Python library to allow users to play a simple game of pong. I used this project as a quick way to refamiliarize myself with Python and OOP. In it's current build, the app allows two human players to play a simple game of pong up to a score of 10, using keys on the keyboard to control the paddles.",
+      technologies: ["Python", "Pygame"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: pong,
+  },
+  {
     id: 30,
     name: "Lastpass Clone",
     ghRepository: "https://github.com/rrich-kray/LastPass_Clone",
     deploymentLink: "https://passwordmanager1.azurewebsites.net/",
     summary:
-      "An attempt at a clone of the password manager app LastPass.",
+      "Clone of the password manager app LastPass.",
     info: {
       description:
         "An attempt at a clone of the password manager app LastPass. Frontend was built with React and TypeScript, backend with ASP.NET and C#. Both the frontend and backend were packaged into a Docker container and deployed to Azure Container Registry.",
@@ -494,6 +511,6 @@ export default [
     },
     video: "",
     backgroundImage: lastpass,
-  },
+  }
   
 ];

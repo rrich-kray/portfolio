@@ -25,7 +25,9 @@ const iconMappings = {
   THREE: "https://global.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png",
   CSharp: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
   dotnet: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg",
-  aspdotnet: "https://image.pngaaa.com/927/5413927-middle.png"
+  aspdotnet: "https://image.pngaaa.com/927/5413927-middle.png",
+  Python: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  Pygame: "https://www.pygame.org/docs/_static/pygame_logo.svg"
 };
 
 export default iconMappings;

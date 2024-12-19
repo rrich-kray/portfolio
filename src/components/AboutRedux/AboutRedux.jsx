@@ -14,6 +14,10 @@ const AboutRedux = () => {
       logo: "https://www.svgrepo.com/show/353925/javascript.svg",
     },
     {
+      skill: "TypeScript",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    },
+    {
       skill: "GraphQL",
       logo: "https://www.svgrepo.com/show/353834/graphql.svg",
     },
@@ -45,6 +49,22 @@ const AboutRedux = () => {
       skill: "JQuery",
       logo: "https://www.svgrepo.com/show/303392/jquery-1-logo.svg",
     },
+    {
+      skill: "Python",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    },
+    {
+      skill: ".NET",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg",
+    },
+    {
+      skill: "C#",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
+    },
+    {
+      skill: "THREE.js",
+      logo: "https://global.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png",
+    }
   ];
 
   return (
@@ -64,7 +84,8 @@ const AboutRedux = () => {
             for differentiated, revenue-generating research. More importantly,
             it helped me realize my passion for software development and
             motivated my departure from the industry nearly a year ago. 
-            
+            <br></br>
+            <br></br>
             Since then, I have worked in data conversions, where I was 
             responsible for developing C# applications that facilitated 
             the conversion of massive client datasets between systems.
