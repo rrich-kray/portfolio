@@ -26,6 +26,21 @@ import pong from "./images/pong.png";
 
 export default [
   {
+    id: 7,
+    name: "Random Password Generator",
+    ghRepository: "https://github.com/rrich-kray/password-generator",
+    deploymentLink: "https://rrich-kray.github.io/password-generator/",
+    summary: "Generates a random password of specified length and content.",
+    info: {
+      description: `The Random Password Generator was designed with simplicity of use in mind. By pressing the 'generate password' button, the user will be presented with a series of prompts that allows them to customize their password. The first prompt allows the user to specify the length of the password. All lengths between 8 characters and 128 characters are valid. The next prompt allows the user to specify the actual content of the password. The user can specify 1 and 2 to include lowercase and uppercase alphabetical characters, respectively, 3 for special characters and 4 for numbers. Users can include any combination of these options.
+        If invalid input is provided, the user will be presented with the following prompt and must reenter their input.`,
+      technologies: ["HTML", "CSS", "JavaScript"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: pw_gen,
+  },
+  {
     id: 1,
     name: "Employee Tracker",
     ghRepository: "https://github.com/rrich-kray/employee-tracker",
@@ -39,6 +54,22 @@ export default [
     },
     video: "",
     backgroundImage: employee_tracker,
+  },
+  {
+    id: 31,
+    name: "Pong",
+    ghRepository: "https://github.com/rrich-kray/pong",
+    deploymentLink: "",
+    summary:
+      "Pong game built with Python and Pygame.",
+    info: {
+      description:
+        " Pong with Pygame project utilizes the Pygame Python library to allow users to play a simple game of pong. I used this project as a quick way to refamiliarize myself with Python and OOP. In it's current build, the app allows two human players to play a simple game of pong up to a score of 10, using keys on the keyboard to control the paddles.",
+      technologies: ["Python", "Pygame"],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: pong,
   },
   {
     id: 2,
@@ -113,21 +144,6 @@ export default [
   //   backgroundImage:
   //     "https://raw.githubusercontent.com/rrich-kray/Your-Landing-Spot-for-Success/main/Develop/assets/images/landing-page.png",
   // },
-  {
-    id: 7,
-    name: "Random Password Generator",
-    ghRepository: "https://github.com/rrich-kray/password-generator",
-    deploymentLink: "https://rrich-kray.github.io/password-generator/",
-    summary: "Generates a random password of specified length and content.",
-    info: {
-      description: `The Random Password Generator was designed with simplicity of use in mind. By pressing the 'generate password' button, the user will be presented with a series of prompts that allows them to customize their password. The first prompt allows the user to specify the length of the password. All lengths between 8 characters and 128 characters are valid. The next prompt allows the user to specify the actual content of the password. The user can specify 1 and 2 to include lowercase and uppercase alphabetical characters, respectively, 3 for special characters and 4 for numbers. Users can include any combination of these options.
-        If invalid input is provided, the user will be presented with the following prompt and must reenter their input.`,
-      technologies: ["HTML", "CSS", "JavaScript"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: pw_gen,
-  },
   // {
   //   id: 8,
   //   name: "Express Note Taker",
@@ -218,6 +234,31 @@ export default [
     video: "",
     backgroundImage: chart,
   },
+  {
+    id: 20,
+    name: "Full-Stack Expenses Chart",
+    ghRepository: "https://github.com/rrich-kray/full-stack-expenses-chart",
+    deploymentLink: "",
+    summary: "Full-stack implementation of my Expenses Chart project",
+    info: {
+      description:
+        "This is an upgraded version of my original expenses chart application (GitHub found here: https://github.com/rrich-kray/expenses-chart), which is based on a frontendmentor.io challenge of the same name. I've always been interested in data visualization, and this project will serve as a great stepping stone a larger and more complex data visualization dashboard that I plan on undertaking in the near future.",
+      technologies: [
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node",
+        "Express",
+        "SQL",
+        "MySQL",
+        "Sequelize",
+      ],
+      gallery: [],
+    },
+    video: "",
+    backgroundImage: chart_fs,
+  },
   // {
   //   id: 15,
   //   name: "Dropdown Challenge",
@@ -281,31 +322,6 @@ export default [
   //   video: "",
   //   backgroundImage: kanban_pwa,
   // },
-  {
-    id: 20,
-    name: "Full-Stack Expenses Chart",
-    ghRepository: "https://github.com/rrich-kray/full-stack-expenses-chart",
-    deploymentLink: "",
-    summary: "Full-stack implementation of my Expenses Chart project",
-    info: {
-      description:
-        "This is an upgraded version of my original expenses chart application (GitHub found here: https://github.com/rrich-kray/expenses-chart), which is based on a frontendmentor.io challenge of the same name. I've always been interested in data visualization, and this project will serve as a great stepping stone a larger and more complex data visualization dashboard that I plan on undertaking in the near future.",
-      technologies: [
-        "React",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Node",
-        "Express",
-        "SQL",
-        "MySQL",
-        "Sequelize",
-      ],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: chart_fs,
-  },
   /*
   {
     id: 21,
@@ -481,22 +497,6 @@ export default [
     backgroundImage: vortex,
   },
   {
-    id: 31,
-    name: "Pong",
-    ghRepository: "https://github.com/rrich-kray/pong",
-    deploymentLink: "",
-    summary:
-      "Pong game built with Python and Pygame.",
-    info: {
-      description:
-        " Pong with Pygame project utilizes the Pygame Python library to allow users to play a simple game of pong. I used this project as a quick way to refamiliarize myself with Python and OOP. In it's current build, the app allows two human players to play a simple game of pong up to a score of 10, using keys on the keyboard to control the paddles.",
-      technologies: ["Python", "Pygame"],
-      gallery: [],
-    },
-    video: "",
-    backgroundImage: pong,
-  },
-  {
     id: 30,
     name: "Lastpass Clone",
     ghRepository: "https://github.com/rrich-kray/LastPass_Clone",
@@ -512,5 +512,4 @@ export default [
     video: "",
     backgroundImage: lastpass,
   }
-  
 ];
